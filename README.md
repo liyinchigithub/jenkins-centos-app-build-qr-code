@@ -17,7 +17,7 @@ docker pull liyinchi/jenkins-centos-app-build-qr-code:1.0.0
 
 ### 启动容器
 ```
-docker run -d --name omysql-server -p 50000:50000 -p 8001:83 -p 8000:8000 liyinchi/jenkins-centos-app-build-qr-code:1.0.0
+docker run -d --name jenkins-app -p 50000:50000 -p 8001:83 -p 8000:8000 liyinchi/jenkins-centos-app-build-qr-code:1.0.0
 ```
 
 
